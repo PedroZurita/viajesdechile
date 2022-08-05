@@ -9,6 +9,9 @@
     src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5e6cd3fd26.js" crossorigin="anonymous"></script>
     <script src="./assets/javascript/script.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -16,7 +19,7 @@
 </head>
 <body>
 <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: transparent;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
           <img src="./assets/img/viajes.svg" width="50px" alt="viajesdechilelogo">
           <a class="navbar-brand ms-3" href="#">Viajes de Chile</a>
@@ -50,13 +53,13 @@
     </div>
     <div class="carousel-inner carou">
       <div class="carousel-item active">
-        <img src="./assets/img/carousel1.jpg" class="w-100" alt="...">
+        <img src="./assets/img/carousel1.jpg" class="w-100" alt="montañas">
       </div>
       <div class="carousel-item">
-        <img src="./assets/img/carousel2.jpg" class="w-100" alt="...">
+        <img src="./assets/img/carousel2.jpg" class="w-100" alt="moais">
       </div>
       <div class="carousel-item">
-        <img src="./assets/img/carousel3.jpg" class="w-100" alt="...">
+        <img src="./assets/img/carousel3.jpg" class="w-100" alt="pinguino">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -77,8 +80,8 @@
   <div class="row">
     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
       <div class="container-text p-5">
-        <div class="container-fluid icon-con" style="background-color: blue">
-          <i class="fa-solid fa-plane"></i>
+        <div class="container-fluid icon-con" style="background-color: #0097DE">
+          <i class="fa-solid fa-plane fa-2x"></i>
           </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dicta laudantium architecto repudiandae ut dolores enim harum facere magni eveniet rerum id quos quo minima, voluptate accusantium quis maiores sunt!</p>
       </div>
@@ -87,16 +90,16 @@
     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
       <div class="container-text p-5">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dicta laudantium architecto repudiandae ut dolores enim harum facere magni eveniet rerum id quos quo minima, voluptate accusantium quis maiores sunt!</p>
-        <div class="container-fluid icon-con" style="background-color: blue">
-          <i class="fa-solid fa-mountain"></i>
+        <div class="container-fluid icon-con" style="background-color: #0097DE">
+          <i class="fa-solid fa-mountain fa-2x"></i>
         </div>
       </div>
     </div>
 
     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
       <div class="container-text p-5">
-        <div class="container-fluid icon-con" style="background-color: blue">
-          <i class="fa-solid fa-route"></i>
+        <div class="container-fluid icon-con" style="background-color: #0097DE">
+          <i class="fa-solid fa-route fa-2x"></i>
           </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dicta laudantium architecto repudiandae ut dolores enim harum facere magni eveniet rerum id quos quo minima, voluptate accusantium quis maiores sunt!</p>
       </div>
@@ -108,42 +111,45 @@
 <section>
 <h2 class="my-5">DESTACADOS</h2>
 <hr>
+<div class="container">
 <div class="row p-5">
-  <div class="col">
-    <div class="card" style="background-color: blue;">
-      <img src="./assets/img/card1.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="col-12 col-sm-12 col-md-12 col-xl-3 my-3">
+    <div class="card" style="background-color: #0097DE">
+      <img src="./assets/img/card1.jpg" class="card-img-top" alt="montaña2">
       <div class="card-body">
         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi non cupiditate quae ad expedita, error quo, aspernatur laborum aperiam doloribus voluptatum vel sit ullam. Placeat assumenda facere molestias inventore modi?.</p>
       </div>
     </div>
   </div>
 
-  <div class="col">
-    <div class="card" style="background-color: blue;">
-      <img src="./assets/img/card2.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="col-12 col-sm-12 col-md-12 col-xl-3 my-3">
+    <div class="card" style="background-color: #0097DE">
+      <img src="./assets/img/card2.jpg" class="card-img-top" alt="lago">
       <div class="card-body">
         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi non cupiditate quae ad expedita, error quo, aspernatur laborum aperiam doloribus voluptatum vel sit ullam. Placeat assumenda facere molestias inventore modi?.</p>
       </div>
     </div>
   </div>
 
-  <div class="col">
-    <div class="card" style="background-color: blue;">
-      <img src="./assets/img/card3.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="col-12 col-sm-12 col-md-12 col-xl-3 my-3">
+    <div class="card" style="background-color: #0097DE">
+      <img src="./assets/img/card3.jpg" class="card-img-top" alt="desierto">
       <div class="card-body">
         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi non cupiditate quae ad expedita, error quo, aspernatur laborum aperiam doloribus voluptatum vel sit ullam. Placeat assumenda facere molestias inventore modi?.</p>
       </div>
     </div>
   </div>
 
-  <div class="col">
-    <div class="card" style="background-color: blue;">
-      <img src="./assets/img/card4.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="col-12 col-sm-12 col-md-12 col-xl-3 my-3">
+    <div class="card" style="background-color: #0097DE">
+      <img src="./assets/img/card4.jpg" class="card-img-top" alt="bosque">
       <div class="card-body">
         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi non cupiditate quae ad expedita, error quo, aspernatur laborum aperiam doloribus voluptatum vel sit ullam. Placeat assumenda facere molestias inventore modi?.</p>
       </div>
     </div>
   </div>
+</div>
+
 </div>
 
 </section>
@@ -172,31 +178,24 @@
 </div>
 </section>
 
-<footer>
-  <div class="container-fluid" style="background-color: blue;">
+<footer id="Footer" class="text-center text-white py-5">
+  <div class="container">
     <div class="row">
-      <div class="col">
-        <p>VIAJES DE CHILE</p>
+      <div class="col-12 col-sm-6">
+        <h2>VIAJES DE CHILE</h2>
       </div>
-      <div class="col py-4 px-1">
-        <i class="fa-brands fa-github"></i>
-      </div>
-      <div class="col py-4 px-1">
-        <i class="fa-brands fa-linkedin"></i>
-      </div>
-      <div class="col py-4 px-1">
-        <i class="fa-brands fa-twitter"></i>
-      </div>
-      <div class="col py-4 px-1">
-        <i class="fa-brands fa-facebook"></i>
-      </div>
-      
+      <div class="col-12 col-sm-6">
+       <a href="#"><i class="fa-brands fa-github fa-3x mx-2"></i></a>
 
-    </div>
-  
-  
-  
-  
+       <a href="#"><i class="fa-brands fa-linkedin fa-3x mx-2"></i></a>
+
+       <a href="#"><i class="fa-brands fa-twitter fa-3x mx-2"></i></a>
+
+       <a href="#"><i class="fa-brands fa-facebook fa-3x mx-2"></i></a>
+
+
+
+      </div>  
   </div>
 
 

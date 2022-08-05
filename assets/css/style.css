@@ -2,6 +2,10 @@ body{
     padding: 0;
     margin: 0;
     background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
+
 }
 
 .carou{
@@ -17,7 +21,14 @@ h2{
 .icon-con{
     color: azure;
     text-align: center;
+}
 
+#Footer{
+    background-color: #0097DE;
 
+}
 
+#Footer a{
+    color: white;
+    text-decoration: none;
 }
