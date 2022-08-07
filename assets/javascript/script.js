@@ -4,7 +4,7 @@ $(document).ready(function(){
 
         $("html, body").animate({
 
-            scrollTop: $(gato).offset().top - 70
+            scrollTop: $(gato).offset().top - 50
         },800
         )
 
@@ -12,3 +12,9 @@ $(document).ready(function(){
 
 })
 
+$(function () {
+    $('[data-bs-toggle="tooltip"]').tooltip();
+  
+ 
+
+  });

@@ -1,3 +1,4 @@
+
 html{
     scroll-behavior: auto !important;
 }
@@ -12,9 +13,13 @@ body{
 
 }
 
+/* Carousel */
+
 .carou{
     padding: 0;
 }
+
+/* Quienes Somos */
 
 h2{
     text-align: center;
@@ -22,10 +27,18 @@ h2{
 
 }
 
+@media (max-width: 767px) {
+    #QuienesSomos {
+        display:none;
+    }
+}
+
 .icon-con{
     color: azure;
     text-align: center;
 }
+
+/* Footer */
 
 #Footer{
     background-color: #0097DE;
@@ -37,8 +50,4 @@ h2{
     text-decoration: none;
 }
 
-@media (max-width: 767px) {
-    #QuienesSomos {
-        display:none;
-    }
-}
+
